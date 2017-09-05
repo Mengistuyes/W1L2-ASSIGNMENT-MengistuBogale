@@ -30,3 +30,9 @@ public class Prog2 {
 	}
 
 }
+/* OUTPUT
+ * 
+The Sum obtained by casting is: 14
+The Sum obtained by rounding is: 15
+
+*/

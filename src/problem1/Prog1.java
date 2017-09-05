@@ -18,3 +18,11 @@ public class Prog1 {
 	}
 
 }
+
+/* OUTPUT
+Randomly generated value of x is : 9
+π the power of x is: 29809.0993334462
+Randomly generated value of y is : 11
+y the power of π is: 1869.096004857077
+
+ * */

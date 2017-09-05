@@ -29,20 +29,38 @@ public class Prog3 {
 				"215A,Hair Ball,0,Little Jimmy,0.00:";
 				// Implement the code
 				String[] Splittedrecords=records.split(":");
-				
+				String[] SplittedColumn=new String[Splittedrecords[0].split(",").length];
 				for(int i=0;i<Splittedrecords.length;i++)
 				{
-					String[] SplittedColumn=Splittedrecords[i].split(",");	
+					SplittedColumn=Splittedrecords[i].split(",");	
 					System.out.println(SplittedColumn[0]);
 				}
-				
-				String s = "a friendly face";
-				
-				System.out.println("s.charAt(2)" + s.charAt(2));
-				System.out.println("s.length()" + s.length());
-				System.out.println("s.substring(2)" + s.substring(4));
-				System.out.println("s.substring(2,8)" + s.substring(2,8));
-				
 			}
 		}
 
+/* output
+231A
+113D
+521W
+440Q
+009G
+336C
+523E
+888A
+176A
+176B
+176C
+500D
+135B
+211Q
+932V
+678Q
+239A
+975B
+870K
+231S
+562M
+777X
+933W
+215A
+*/
