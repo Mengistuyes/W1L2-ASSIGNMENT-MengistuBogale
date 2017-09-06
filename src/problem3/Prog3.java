@@ -27,10 +27,10 @@ public class Prog3 {
 				"777X,Dog Bone,15,Wilco,4.15:"+
 				"933W,Cat Toy,15,Wilco,2.35:"+
 				"215A,Hair Ball,0,Little Jimmy,0.00:";
-				// Implement the code
-				String[] Splittedrecords=records.split(":");
+			
+				String[] Splittedrecords=records.split(":");//get records
 				String[] SplittedColumn=new String[Splittedrecords[0].split(",").length];
-				for(int i=0;i<Splittedrecords.length;i++)
+				for(int i=0;i<Splittedrecords.length;i++)//loop through the records
 				{
 					SplittedColumn=Splittedrecords[i].split(",");	
 					System.out.println(SplittedColumn[0]);
@@ -38,7 +38,7 @@ public class Prog3 {
 			}
 		}
 
-/* output
+/* OUTPUT
 231A
 113D
 521W

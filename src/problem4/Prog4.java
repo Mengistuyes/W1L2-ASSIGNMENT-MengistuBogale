@@ -9,7 +9,7 @@ public class Prog4 {
 		String MyReversedWord="";
 		
 		Scanner input=new Scanner(System.in);
-		System.out.println("Please Enter any word");
+		System.out.println("Please Enter any word\n");
 		MyStringToBeChanged=input.nextLine();
 		  System.out.println("You word is:- " + MyStringToBeChanged);
 		for(int i=MyStringToBeChanged.length()-1;i>=0;i--)
@@ -18,6 +18,7 @@ public class Prog4 {
 		}
         System.out.println("The reversed word is:- " + MyReversedWord);
         input.close();
+       
 	}
 
 }
